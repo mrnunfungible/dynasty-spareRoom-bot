@@ -1,0 +1,16 @@
+{
+  "name": "dynasty-spareRoom-bot",
+  "version": "1.0.0",
+  "description": "Automation bot for posting property listings from Google Sheets to SpareRoom for Dynasty Accommodation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Dynasty Accommodation",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "google-spreadsheet": "^3.3.0",
+    "puppeteer": "^19.0.0"
+  }
+}
